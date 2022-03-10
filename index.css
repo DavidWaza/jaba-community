@@ -203,46 +203,47 @@ a {
 .icon {
   width: 30px;
   height: 30px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.icon_text {
+  margin-right: 150px;
 }
 .member_cta_background {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/bg2.jpg");
   background-size: cover;
-  background-position: 100% 50%;
+  background-position: 50%, 40%;
   height: auto;
   width: 100%;
   padding-bottom: 20px;
 }
-/* .overlay {
-    background-color: #000;
-    opacity: 0.8;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100000;
-} */
+
 h2,
 .cta_text {
   color: #ff9f00;
-  width: 80%;
+  width: 70%;
   font-size: 3rem;
   text-align: justify;
   font-weight: bold;
-  padding-top: 20px;
+  padding: 20px;
   flex-wrap: nowrap;
 }
 .cta_subtext {
   font-size: 1rem;
   width: 50%;
+  padding: 20px;
   flex-wrap: nowrap;
   color: #fff;
+  margin-top: -53px;
 }
 .btn_cta {
   border: none;
-  padding: 10px;
+  margin: 20px;
+  padding:10px;
   width: 170px;
+  margin-top: -12px;
   background-color: #ff9f00;
   text-transform: uppercase;
   transition: all 1s ease-out;
@@ -262,16 +263,14 @@ h2,
   font-style: italic;
 }
 .testimotionals {
-  width: 100%;
   height: 200px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
 .testimotionals .card {
   position: relative;
   overflow: hidden;
-  margin: 0 auto;
   background: #000;
   padding: 20px;
   box-sizing: border-box;
@@ -281,7 +280,6 @@ h2,
 }
 .testimotionals .card .layer {
   z-index: 1;
-  position: absolute;
   top: calc(100% - 2px);
   height: 100%;
   width: 100%;
@@ -292,7 +290,6 @@ h2,
 
 .testimotionals .card .content {
   z-index: 2;
-  position: relative;
 }
 
 .testimotionals .card:hover .layer {
@@ -309,14 +306,9 @@ h2,
   font-size: 18px;
   color: white;
 }
-.testimotionals .card .content .details h2 span {
-  font-size: 18px;
-  color: purple;
-  transition: 0.5s;
-}
+
 .testimotionals .card:hover .content .details h2 span {
   color: white;
-  position: relative;
 }
 .btn-download {
   background-color: #ff9f00;
@@ -333,6 +325,7 @@ h2,
   background-size: cover;
   height: 50vh;
   margin-bottom: 60px;
+  margin-top: 40px;
 }
 .covid_news {
   position: absolute;
@@ -378,11 +371,16 @@ h2,
   .cta_subtext {
     width: 80%;
   }
+  .covid_update  {
+    width: 100%;
+    height: 50vh;
+  }
   .covid_subnews {
     font-size: 1em;
     width: 100%;
     padding: 0px 10px;
     top: 93px;
+    text-align: center;
 }
   .covid_news {
     font-size: 1.5em;
