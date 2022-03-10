@@ -50,12 +50,7 @@ body {
 li {
   list-style: none;
 }
-.cb-slideshow li div h3 {
-  font-family: "BebasNeueRegular", "Arial Narrow", Arial, sans-serif;
-  font-size: 240px;
-  padding: 0;
-  line-height: 200px;
-}
+
 .cb-slideshow li:nth-child(1) span {
   background-image: url(./images/7.jpg);
 }
@@ -363,6 +358,14 @@ h2,
 @media screen and (max-width: 600px) {
   .cb-slideshow li div h3 {
     font-size: 80px;
+  }
+  .hero_text {
+    top: 150px;
+    font-size: 2.2em;
+  }
+  .btn-homepage {
+    top:-80px;
+    left:100px
   }
   .contacts {
     display: none;
