@@ -121,6 +121,17 @@ li {
 .no-cssanimations .cb-slideshow li span {
   opacity: 1;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.55);
+  background-color: #fff;
+}
+.nav-link:hover {
+  background-color: #0b6623;
+  height: 100% !important;
+  width: 100% !important;
+  color: #000 !important;
+}
+
 .video-div {
   position: relative;
   width: 100%;
